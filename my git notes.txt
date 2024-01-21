@@ -1,0 +1,88 @@
+in vim type
+	
+	vim filename	
+	i- insert or edit
+
+	you can press Esc key to enter command mode, type :q!, 
+	and press Enter to quit without saving changes.
+	
+	Press Esc to make sure you are in command mode.
+	Type :wq (stands for write and quit).
+	Press Enter to save and exit.
+	cat filename - to see all changes
+	
+
+
+git --version
+git config --global user.name "username"
+git config --global user.email "email"
+git config --global user.<name/email>// to check
+git config --global --edit
+	 you can press Esc key to enter command mode, type :q!, 
+	and press Enter to quit without saving changes.
+	
+	Press Esc to make sure you are in command mode.
+	Type :wq (stands for write and quit).
+	Press Enter to save and exit.
+mkdir <directory name>
+cd <come in directory>
+
+dir
+
+git status 
+git add <file name>
+git add .   or  git add --all   or   git add -A  
+git commit -m "initial commit"
+git log
+git checkout <branch name/ hash code>
+git branch <branch name>
+get checkout <branch name>
+git branch
+git checkout -b <branch name to create and enter the branch>
+git merge <branch name>
+
+
+
+
+git reset --hard HEAD^
+git reset
+
+touch .gitignore
+
+
+git remote add origin <link>
+git branch -M master
+git push
+git push -u origin master
+
+
+FOR BRANCH OTHER THAN MASTER
+
+git checkout <branch name>
+git push -u origin <branch name>
+
+git clone <repository_url my_custom_directory>
+
+
+
+
+git remote add origin git@github.com:username/new_repo
+git push -u origin master
+
+
+
+
+echo "# Dpp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Anayverma/Dpp.git
+git push -u origin main
+
+
+
+
+git remote add origin https://github.com/Anayverma/Dpp.git
+git branch -M main
+git push -u origin main
